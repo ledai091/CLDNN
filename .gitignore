@@ -1,0 +1,7 @@
+/data/
+/img/
+*.zip
+/processed_sequences/
+__pycache__/
+.vscode/
+/cell_detection/
