@@ -1,3 +1,7 @@
-# Move folder từ img -> train
-# Tạo train.csv, val.csv, test.csv - col1: img_path ; col2: label
-## train.csv: img_path: dataset/train/1_220013_well01_zid99_29_augmentation_2 - label: 0
+Train 1: Train with raw (no augmentation, no class weight)
+Train 2: Train with class weight
+Train 3: Train class weight + batch_sampler: 2
+Train 4: Train batch_sampler: 2
+Train 5: Train with augmentation
+Train 6: Train with augmentation + Train batch_sampler: 2
+Train 7: Train with scheduler + Batch_sampler: 1.25

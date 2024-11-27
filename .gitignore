@@ -1,7 +1,12 @@
-/data/
+/data_timelapse/
 /img/
 *.zip
 /processed_sequences/
 __pycache__/
 .vscode/
 /cell_detection/
+/dataset/
+/img_origin/
+/img_resize/
+/weight/
+*.csv
